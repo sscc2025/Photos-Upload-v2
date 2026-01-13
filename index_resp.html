@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Seth Sarana Caritas Colombo - Field Officer Daily Photos Upload</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="page-head">
+    <div class="brand">
+      <div class="logo"> <!-- replaced SVG with provided logo image -->
+         <img src="public/img/logo.svg" alt="Seth Sarana logo" class="logo-img" />
+      </div>
+      <div class="title">Seth Sarana Caritas Colombo</div>
+    </div>
+    <div class="meta">
+      <div class="meta-row">
+        <div class="meta-label">Date</div>
+        <div class="meta-value" id="date-value">--.--.--</div>
+      </div>
+      <div class="meta-row">
+        <div class="meta-label">Time</div>
+        <div class="meta-value" id="time-value">--:--</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section card">
+      <h2 class="section-title">Field Officer Daily Photos Upload 2026</h2>
+      <div class="field-officers">
+        <h3>Field Officer's</h3>
+        <div class="buttons">
+          <button class="fo-btn" data-url="https://mega.nz/filerequest/XyN1klnxds4">Nirosha Thennakoon</button>
+          <button class="fo-btn" data-url="https://mega.nz/filerequest/TfB9ZcSTSbk">Nalin Dias</button>
+          <button class="fo-btn" data-url="https://mega.nz/filerequest/_JI-k9X-zZs">Ashen Dinuka</button>
+          <button class="fo-btn" data-url="https://mega.nz/filerequest/_JI-k9X-zZs">Kumari Deniyawaththa</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upload section removed per request -->
+  </main>
+
+  <footer class="page-foot">Seth Sarana IT Unit</footer>
+  <!-- Modal popup for opening external links inside the page -->
+  <div id="link-popup" class="popup hidden" role="dialog" aria-hidden="true">
+    <div class="popup-backdrop" data-action="close"></div>
+    <div class="popup-content" role="document">
+      <div class="popup-toolbar">
+        <button id="popup-close" class="popup-close" aria-label="Close">×</button>
+        <button id="popup-open" class="popup-open" aria-label="Open in new tab">Open in new tab</button>
+      </div>
+      <iframe id="popup-iframe" src="" frameborder="0" title="External link"></iframe>
+      <div id="popup-msg" class="popup-msg hidden">This site doesn't allow embedding. Use "Open in new tab" to view the content.</div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
